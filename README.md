@@ -1,6 +1,6 @@
 #  Automation Project For Wunder Mobility 
 
-This project is related to an assignment by Wunder Mobility
+This project is related to an assignment by Wunder Mobility.
 
 ## Getting Started
 
