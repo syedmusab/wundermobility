@@ -1,5 +1,5 @@
 Feature: Backend Automation
-  Background: As an automation engineer, I would like to automate process of create and delete employee
+  Background: As an automation engineer, I would like to create an End to End test to add an employee and validate it and then delete the employee
 
   @backend
   Scenario: Create an employee, validate if this employee was created correctly and then delete the employee
