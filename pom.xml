@@ -10,11 +10,14 @@
 
     <dependencies>
 
+        <!--Dependency for cucumber-->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>1.2.5</version>
         </dependency>
+
+        <!--Dependency of random name-->
 
         <dependency>
             <groupId>com.github.javafaker</groupId>
@@ -22,12 +25,15 @@
             <version>0.12</version>
         </dependency>
 
+
+        <!--For logging purpose-->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.6.1</version>
         </dependency>
 
+        <!--REST ASSURED to automate APIs-->
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
@@ -35,6 +41,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!--Selenium dependency-->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
