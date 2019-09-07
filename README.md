@@ -4,7 +4,7 @@ This project is related to an assignment by Wunder Mobility.
 
 ## Getting Started
 
-Project is based on Mobile and Backend automation so following software should be installed prior running tests.
+Project is based on Mobile and Backend automation so following softwares should be installed prior running tests.
 
 ## Prerequisites
  

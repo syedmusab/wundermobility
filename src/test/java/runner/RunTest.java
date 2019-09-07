@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(features={"src//test//resources//features"}
 					,glue={"stepdefinations","utility"}
 					,plugin = {"pretty", "html:target/cucumber"}
-					, tags ={"@backend"}
+					, tags ={"@appium, @backend"}
 		)
 @Test
 public class RunTest extends AbstractTestNGCucumberTests{

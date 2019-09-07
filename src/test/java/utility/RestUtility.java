@@ -39,6 +39,11 @@ public class RestUtility {
     }
 
 
+    /**
+     * GET request of employee API where it retrives record of created employee
+     * @param apiEndpoint
+     * @return
+     */
     public Response getEmployeeById(String apiEndpoint){
         DateTime dtBeforeAPIRequest = new DateTime();
         long current = dtBeforeAPIRequest.getMillis();

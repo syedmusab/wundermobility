@@ -25,7 +25,11 @@ public class BaseTest {
 	public static WebDriver getDriver() {
 		return driver;
 	}
-	
+
+	/**
+	 * Setup desired capabilities here
+	 * @throws MalformedURLException
+	 */
 	@Before("@appium")
 	public void setUpAppium() throws MalformedURLException
 	{
@@ -36,7 +40,11 @@ public class BaseTest {
 		driver = new AndroidDriver<WebElement>(new URL("http://0.0.0.0:4723/wd/hub"), cap);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
-	
+
+
+	/**
+	 * To quit driver after all tests are performed
+	 */
 	@After("@appium")
 	public void tearDown()
 	{
